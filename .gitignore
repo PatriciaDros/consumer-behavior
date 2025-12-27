@@ -1,16 +1,11 @@
-# macOS
+# =========================
+# macOS system files
+# =========================
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Thumbnails
 ._*
-
-# Icon?
-Icon?
-._Icon?
-
-# Files that might appear in the root of a volume
+.Icon?
 .DocumentRevisions-V100
 .fseventsd
 .Spotlight-V100
@@ -18,7 +13,9 @@ Icon?
 .Trashes
 .VolumeIcon.icns
 
-# Python
+# =========================
+# Python / virtual environments
+# =========================
 __pycache__/
 *.pyc
 *.pyo
@@ -27,5 +24,18 @@ env/
 venv/
 *.env
 
-# VS Code
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code settings
+# =========================
 .vscode/
+
+# =========================
+# Logs / temporary files
+# =========================
+*.log
+*.tmp
